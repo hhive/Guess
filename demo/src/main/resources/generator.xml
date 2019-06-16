@@ -25,7 +25,7 @@
 
         <!-- 实体类生成的位置 -->
         <javaModelGenerator
-                targetPackage="com.example.model"
+                targetPackage="com.example.entity"
                 targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
@@ -52,10 +52,10 @@
         enableUpdateByExample="false" enableDeleteByExample="false"
         enableSelectByExample="false" selectByExampleQueryId="false">
         </table>
-        <table schema="guess" tableName="t_credit"
-               domainObjectName="Credit" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false">
-        </table>
+<!--        <table schema="guess" tableName="t_credit"-->
+<!--               domainObjectName="Credit" enableCountByExample="false"-->
+<!--               enableUpdateByExample="false" enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false" selectByExampleQueryId="false">-->
+<!--        </table>-->
     </context>
 </generatorConfiguration>

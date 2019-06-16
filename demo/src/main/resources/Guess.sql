@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS t_user;
-create table user(
-    id int auto_increment primary key,
+create table t_user(
+    id varchar(20) primary key,
     name varchar(20) not null,
     password varchar(20) not null
 );
